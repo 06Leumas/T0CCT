@@ -6,5 +6,13 @@
       "Textures_JeansTankCap_Top_BaseColor"
     ],
     "pathid": 1291
+  },
+  "shorts": {
+    "bundle": "F:\\SteamLibrary\\steamapps\\common\\Tricking 0\\TRICKING_0_Data\\resources.assets",
+    "texture_name": "Shorts_Bottom_BaseColor",
+    "texture_names": [
+      "Shorts_Bottom_BaseColor"
+    ],
+    "pathid": 571
   }
 }
