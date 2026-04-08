@@ -1,6 +1,6 @@
 # T0CCT - Tricking 0 Clothing Customizer Tool
 ### What is T0CCT?
-T0CCT (Tricking 0 Clothing Customizer Tool) is a tool made for adding custom clothing textures into Tricking 0. Ive figured out how to mod the game manualy, and now I wanna share a way to do it quick and easy! In this document, you will learn how the tool works, how to use the app and last but for sure not least, how to make your own custom clothing texture!
+T0CCT (Tricking 0 Clothing Customizer Tool) is a tool made for adding custom clothing textures into Tricking 0. Ive figured out how to mod the game manualy, and now I wanna share a way to do it quick and easy! In this document, you will learn how the tool works, how to use the app and last but for sure not least, how to make your own custom clothing textures!
 
 ### Quick Download
 Use the packaged build artifact after each push:
