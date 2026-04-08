@@ -1,0 +1,46 @@
+name: Package T0CCT
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  package:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Stage release files
+        shell: pwsh
+        run: |
+          $artifactRoot = Join-Path $env:GITHUB_WORKSPACE "artifact\T0CCT"
+          New-Item -ItemType Directory -Path $artifactRoot -Force | Out-Null
+
+          $files = @(
+            "T0CCT.exe",
+            "classdata.tpk",
+            "AssetsTools.NET.xml",
+            "texture_mapping.json",
+            "README.md"
+          )
+
+          foreach ($file in $files) {
+            Copy-Item (Join-Path $env:GITHUB_WORKSPACE $file) (Join-Path $artifactRoot $file) -Force
+          }
+
+          $libraryPath = Join-Path $env:GITHUB_WORKSPACE "OrignalTexturesLibrary"
+          if (Test-Path $libraryPath) {
+            Copy-Item $libraryPath (Join-Path $artifactRoot "OrignalTexturesLibrary") -Recurse -Force
+          }
+
+      - name: Upload packaged artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: T0CCT-windows
+          path: artifact/T0CCT
+          if-no-files-found: error
+          retention-days: 30
