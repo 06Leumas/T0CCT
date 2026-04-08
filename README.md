@@ -3,12 +3,13 @@
 T0CCT (Tricking 0 Clothing Customizer Tool) is a tool made for adding custom clothing textures into Tricking 0. Ive figured out how to mod the game manualy, and now I wanna share a way to do it quick and easy! In this document, you will learn how the tool works, how to use the app and last but for sure not least, how to make your own custom clothing textures!
 
 ### Quick Download
-Use the packaged build artifact after each push:
+Use the nightly release package after each push:
 
-- `nightly.link`: https://nightly.link/06Leumas/T0CCT/workflows/package-nightly.yml/main/T0CCT-windows.zip
+- `Nightly Download`: https://github.com/06Leumas/T0CCT/releases/download/nightly/T0CCT-windows.zip
 - Do not use GitHub's **Code -> Download ZIP** for the app. That downloads the repository source archive, not the proper packaged app download.
+- If the repository is private, you must be logged into GitHub and have access to the repo to download the file.
 
-After the workflow runs on GitHub, the `nightly.link` URL above will always point to the newest pushed package.
+After the workflow runs on GitHub, this release asset URL will always point to the newest pushed package.
 
 ### How does it work?
 This tool works by extracting the .asset folder that the clothes are saved in ingame, replacing the texture with your new customized texture, and then repacking the .asset file with your your new customized texture for the clothing piece.

@@ -6,6 +6,9 @@ on:
       - main
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   package:
     runs-on: windows-latest
@@ -37,6 +40,16 @@ jobs:
             Copy-Item $libraryPath (Join-Path $artifactRoot "OrignalTexturesLibrary") -Recurse -Force
           }
 
+      - name: Create release zip
+        shell: pwsh
+        run: |
+          $zipPath = Join-Path $env:GITHUB_WORKSPACE "artifact\T0CCT-windows.zip"
+          if (Test-Path $zipPath) {
+            Remove-Item $zipPath -Force
+          }
+
+          Compress-Archive -Path (Join-Path $env:GITHUB_WORKSPACE "artifact\T0CCT\*") -DestinationPath $zipPath -CompressionLevel Optimal
+
       - name: Upload packaged artifact
         uses: actions/upload-artifact@v4
         with:
@@ -44,3 +57,29 @@ jobs:
           path: artifact/T0CCT
           if-no-files-found: error
           retention-days: 30
+
+      - name: Publish nightly release asset
+        shell: pwsh
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          $zipPath = Join-Path $env:GITHUB_WORKSPACE "artifact\T0CCT-windows.zip"
+          $notes = "Auto-updated nightly package from main. Commit: $env:GITHUB_SHA"
+
+          gh release view nightly *> $null
+          if ($LASTEXITCODE -ne 0) {
+            gh release create nightly $zipPath --title "T0CCT Nightly" --notes $notes --prerelease
+            if ($LASTEXITCODE -ne 0) {
+              throw "Failed to create nightly release."
+            }
+          }
+          else {
+            gh release upload nightly $zipPath --clobber
+            if ($LASTEXITCODE -ne 0) {
+              throw "Failed to upload nightly release asset."
+            }
+            gh release edit nightly --title "T0CCT Nightly" --notes $notes --prerelease
+            if ($LASTEXITCODE -ne 0) {
+              throw "Failed to update nightly release metadata."
+            }
+          }
