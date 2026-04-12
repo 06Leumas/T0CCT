@@ -16,7 +16,7 @@ This tool works by extracting the .asset file/folder that the clothes are saved 
 ---
 
 ## How to Download and Use
-
+   [*This video*](https://youtu.be/uBGOgVy4Epo?si=LgMtqgGC8YcnCUgG) explains how to use the app and the process of getting your own custom texture into the game, to download (and use) follow these steps:
 1. **Check the Required Files**
    - Make sure `T0CCT.exe`, `texture_mapping.json`, and `classdata.tpk` are in the same folder.
 
@@ -49,9 +49,10 @@ This tool works by extracting the .asset file/folder that the clothes are saved 
 
 Ive made and I still am making some tutorials for each clothing item, but the steps are all pretty much the same. [*This video*](https://youtu.be/uBGOgVy4Epo?si=LgMtqgGC8YcnCUgG) explains how to use the tool while customizing a tank top as an example, but the princeples are the same for every item. The rest of the videos explain how to edit the diffrent clothing png's, as they are more complicated to do.
 Check out the full playlist for every tutorial by clicking [*here*](https://youtube.com/playlist?list=PLaufcdioUZppcY2-BMTTt4jxImA4Tgi0k&si=ga9V8d69kWgIIa6l).
+
 Vidoes made so far:
-   - Using the T0CCT Tool for Custom Clothing (Tank Top Example)
-   - 
+   - [Using the T0CCT Tool for Custom Clothing (Tank Top Example)](https://youtu.be/uBGOgVy4Epo?si=LgMtqgGC8YcnCUgG)
+   -More videos coming soon, next video: How to custimise short texture.
 
 ---
 ## Other info:
