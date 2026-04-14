@@ -3,7 +3,7 @@
 T0CCT (Tricking 0 Clothing Customizer Tool) is a tool/mod made for adding custom clothing textures into Tricking 0. Ive figured out how to mod the game manually, and now I wanna share a way to do it quick and easy! In this document, you will learn how the tool works, how to use the app and last but for sure not least, how to make your own custom clothing textures!
 
 ### Quick Download
-Use this link to download the latest version of T0CCL for Windows:
+Use this link to download the latest version of T0CCT for Windows:
 
 - https://github.com/06Leumas/T0CCT/releases/download/nightly/T0CCT-windows.zip
 - Do not use GitHub's **Code -> Download ZIP** for the app. That downloads the repository source archive, not the proper packaged app download.
@@ -50,12 +50,13 @@ This tool works by extracting the .asset file/folder that the clothes are saved 
 Ive made and I still am making some tutorials for each clothing item, but the steps are all pretty much the same. [*This video*](https://youtu.be/uBGOgVy4Epo?si=LgMtqgGC8YcnCUgG) explains how to use the tool while customizing a tank top as an example, but the princeples are the same for every item. The rest of the videos explain how to edit the diffrent clothing png's, as they are more complicated to do.
 Check out the full playlist for every tutorial by clicking [*here*](https://youtube.com/playlist?list=PLaufcdioUZppcY2-BMTTt4jxImA4Tgi0k&si=ga9V8d69kWgIIa6l).
 
-Vidoes made so far:
-   - [Using the T0CCT Tool for Custom Clothing (Tank Top Example)](https://youtu.be/uBGOgVy4Epo?si=LgMtqgGC8YcnCUgG)
-   -More videos coming soon, next video: How to custimise short texture.
+Videos made so far:
+   - [Tricking 0 Mod Guide: Using the T0CCT Tool for Custom Clothing (Tank Top Example)](https://youtu.be/uBGOgVy4Epo?si=LgMtqgGC8YcnCUgG)
+   - [Tricking 0 Mod Guide: Customizing the Shorts texture](https://youtu.be/0j2qVWneZz8)
 
 ---
-## Other info:
+## Other info
+Heres some good to know and important info about the tool:
 ### How to Find the Tricking 0 Folder
 
 1. Open Steam.
