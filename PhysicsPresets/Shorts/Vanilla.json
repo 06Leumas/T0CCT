@@ -1,0 +1,10 @@
+{
+  "PresetName": "Vanilla",
+  "AssetName": "ShortsClothProperties",
+  "Values": {
+    "stretchingStiffness": 1,
+    "bendingStiffness": 1,
+    "damping": 1,
+    "selfcollisionDistance": 0.08
+  }
+}

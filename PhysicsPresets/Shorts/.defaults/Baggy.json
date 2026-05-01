@@ -1,0 +1,10 @@
+{
+  "PresetName": "Baggy",
+  "AssetName": "ShortsClothProperties",
+  "Values": {
+    "stretchingStiffness": 0.094,
+    "bendingStiffness": 1.142,
+    "damping": 1.28,
+    "selfcollisionDistance": 0.263
+  }
+}

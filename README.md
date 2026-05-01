@@ -55,6 +55,29 @@ Videos made so far:
    - [Tricking 0 Mod Guide: Customizing the Shorts texture](https://youtu.be/0j2qVWneZz8)
 
 ---
+
+## Customize Physics
+The tool also includes a physics editor. This lets you tweak how clothing moves and behaves in-game without touching any game files manually.
+
+### How to use it
+1. **Open the Tool** and click **Customize Physics**.
+2. **Select the clothing item** you want to edit from the top of the screen.
+3. **Pick a preset** from the list on the left — *Vanilla* is a snapshot of your current game values and is read-only.
+4. **Adjust the sliders** to tweak the physics. Double-click any value to type an exact number.
+5. Click **Apply To Game** to write the changes directly to your game.
+
+### Presets
+- **Vanilla** — read-only snapshot of the original game values. Can't be edited or deleted.
+- **Baggy** — an example preset that comes with the tool.
+- You can create your own presets with the **+** button, save changes, and delete any custom preset with the 🗑 button.
+- Presets are saved as `.json` files. To use a preset someone else made, just drag and drop their `.json` file into the `PhysicsPresets` folder inside your T0CCT folder.
+
+### Notes
+- The tool creates a one-time backup of your game file the first time you apply physics changes, same as with textures.
+- If the physics fields aren't exposed in your game build, Apply will be disabled automatically.
+
+---
+
 ## Other info
 Heres some good to know and important info about the tool:
 ### How to Find the Tricking 0 Folder

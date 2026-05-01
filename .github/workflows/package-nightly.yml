@@ -28,7 +28,6 @@ jobs:
           $files = @(
             "T0CCT.exe",
             "classdata.tpk",
-            "AssetsTools.NET.xml",
             "texture_mapping.json",
             "README.md"
           )

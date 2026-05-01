@@ -14,5 +14,25 @@
       "Shorts_Bottom_BaseColor"
     ],
     "pathid": 571
+  },
+  "cap": {
+    "bundle": "F:\\SteamLibrary\\steamapps\\common\\Tricking 0\\TRICKING_0_Data\\resources.assets",
+    "texture_name": "Textures_JeansTankCap_Hat_BaseColor",
+    "texture_names": [
+      "Textures_JeansTankCap_Hat_BaseColor"
+    ],
+    "pathid": 376
+  },
+  "shoes": {
+    "bundle": "F:\\SteamLibrary\\steamapps\\common\\Tricking 0\\TRICKING_0_Data\\resources.assets",
+    "texture_name": "Shoes_Shoes_BaseColor",
+    "texture_names": [
+      "Shoes_Shoes_BaseColor"
+    ],
+    "pathid": 1278
+  },
+  "shorts_physics": {
+    "bundle": "",
+    "asset_name": "ShortsClothProperties"
   }
 }
