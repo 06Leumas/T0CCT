@@ -31,6 +31,14 @@
     ],
     "pathid": 1278
   },
+  "tattoo": {
+    "bundle": "F:\\SteamLibrary\\steamapps\\common\\Tricking 0\\TRICKING_0_Data\\resources.assets",
+    "texture_name": "TrickerBetaUmaWhiteEmpty_Body_BaseColor",
+    "texture_names": [
+      "TrickerBetaUmaWhiteEmpty_Body_BaseColor"
+    ],
+    "pathid": 959
+  },
   "shorts_physics": {
     "bundle": "",
     "asset_name": "ShortsClothProperties"
