@@ -92,6 +92,11 @@ Heres some good to know and important info about the tool:
 
 ### Backup and Restore
 
+If you want to restore your game to deafaults you can either:
+- Right click Tricking 0 in your steam library, press "Properties" -> "Installed files", then press "Verify integrity of game files".
+
+   Or use the backup file:
+  
 - The tool creates a one-time backup called `resources.assets.original` inside your `TRICKING_0_Data` folder.
 - If you want to restore the original clothing texture:
   - delete the modified `resources.assets`
