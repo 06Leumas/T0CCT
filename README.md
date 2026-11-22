@@ -45,6 +45,16 @@ This tool works by extracting the .asset file/folder that the clothes are saved 
 7. **Enjoy!**
 
 ---
+## Install Custom Maps
+
+1. Click **Install Custom Map** on the home screen.
+2. Select the ZIP file for the map you want to install.
+3. Review the JSON and PNG files found in the ZIP, then click **Install**.
+4. Confirm if the installer asks to replace files that already exist.
+
+The installer copies the map's JSON and any PNG files into the game's Maps folder. It can handle ZIPs that include a folder around the map files. T0CCT looks for the Maps folder at `%USERPROFILE%\AppData\LocalLow\TRICKING 0\TRICKING_0\Maps`; you can check or change this location in Settings.
+
+---
 ## How to make your own Clothing texture
 
 Ive made and I still am making some tutorials for each clothing item, but the steps are all pretty much the same. [*This video*](https://youtu.be/uBGOgVy4Epo?si=LgMtqgGC8YcnCUgG) explains how to use the tool while customizing a tank top as an example, but the princeples are the same for every item. The rest of the videos explain how to edit the diffrent clothing png's, as they are more complicated to do.
