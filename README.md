@@ -45,12 +45,13 @@ This tool works by extracting the .asset file/folder that the clothes are saved 
 7. **Enjoy!**
 
 ---
-## Install Custom Maps
+## Manage and Install Custom Maps
 
-1. Click **Install Custom Map** on the home screen.
-2. Select the ZIP file for the map you want to install.
-3. Review the JSON and PNG files found in the ZIP, then click **Install**.
-4. Confirm if the installer asks to replace files that already exist.
+1. Click **Manage Custom Maps** on the home screen to view map JSON files in the game's Maps folder.
+2. Select one or more maps (use Ctrl or Shift to select multiple), then click **Delete Map(s)**. T0CCT asks before deleting the map files and any same-named PNG images.
+3. Click **Install New Map** to select a map ZIP. Review the JSON and PNG files found in the ZIP, then click **Install**.
+4. Click **Update List** to rescan the Maps folder and clear the last deletion status, or **Open Folder** to open it in File Explorer.
+5. Confirm if the installer asks to replace files that already exist.
 
 The installer copies the map's JSON and any PNG files into the game's Maps folder. It can handle ZIPs that include a folder around the map files. T0CCT looks for the Maps folder at `%USERPROFILE%\AppData\LocalLow\TRICKING 0\TRICKING_0\Maps`; you can check or change this location in Settings.
 
